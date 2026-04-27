@@ -1,0 +1,92 @@
+[
+  {
+    "id": "avito",
+    "title": "Авито",
+    "category": "Реклама",
+    "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239031",
+    "cover": "",
+    "size": "large",
+    "featured": true
+  },
+  {
+    "id": "media-basket",
+    "title": "Media Basket",
+    "category": "Реклама",
+    "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239028",
+    "cover": "/img/DSC_0830.jpg",
+    "size": "small",
+    "featured": true
+  },
+  {
+    "id": "super-stas",
+    "title": "Супер Стас",
+    "category": "Монтаж",
+    "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239031",
+    "cover": "/img/DSC_0830.jpg",
+    "size": "small",
+    "featured": true
+  },
+  {
+    "id": "oleg-koffi",
+    "title": "Олег Коффи",
+    "category": "Монтаж",
+    "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239025",
+    "cover": "/img/DSC_0830.jpg",
+    "size": "small",
+    "featured": false
+  },
+  {
+    "id": "morgenstern1",
+    "title": "Моргенштерн 1",
+    "category": "Монтаж",
+    "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239023",
+    "cover": "/img/DSC_0830.jpg",
+    "size": "small",
+    "featured": false
+  },
+  {
+    "id": "morgenstern2",
+    "title": "Моргенштерн 2",
+    "category": "Монтаж",
+    "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239024",
+    "cover": "/img/DSC_0830.jpg",
+    "size": "small",
+    "featured": false
+  },
+  {
+    "id": "egor-creed",
+    "title": "Егор Крид",
+    "category": "Монтаж",
+    "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239022",
+    "cover": "/img/DSC_0830.jpg",
+    "size": "small",
+    "featured": false
+  },
+  {
+    "id": "alisha",
+    "title": "Алиша",
+    "category": "Монтаж",
+    "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239020",
+    "cover": "/img/DSC_0830.jpg",
+    "size": "small",
+    "featured": false
+  },
+  {
+    "id": "warpath",
+    "title": "Варпач",
+    "category": "Монтаж",
+    "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239019",
+    "cover": "/img/DSC_0830.jpg",
+    "size": "small",
+    "featured": false
+  },
+  {
+    "id": "adel",
+    "title": "Тизер садовод Адель",
+    "category": "Монтаж",
+    "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239017",
+    "cover": "/img/DSC_0830.jpg",
+    "size": "small",
+    "featured": false
+  }
+]
