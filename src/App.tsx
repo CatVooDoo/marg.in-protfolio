@@ -25,6 +25,8 @@ const AUTHOR_IMAGES = [
   '/img/DSC_0998.jpg'
 ];
 
+const publicAsset = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`;
+
 const SKILLS = [
   'Монтаж видео', 'Цветокоррекция', 'Моушн-дизайн', 'Звук', 'VFX', 'Креативное направление'
 ];
@@ -85,7 +87,7 @@ const ProjectCard: FC<{ project: Project, index: number, onClick: (project: Proj
     >
       {project.cover ? (
         <img
-          src={project.cover}
+          src={publicAsset(project.cover)}
           alt={project.title}
           className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 bg-zinc-900"
         />
@@ -125,7 +127,7 @@ function AuthorSlider() {
       <AnimatePresence>
         <motion.img
           key={index}
-          src={AUTHOR_IMAGES[index]}
+          src={publicAsset(AUTHOR_IMAGES[index])}
           alt="Данила Маркушин за работой"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -234,7 +236,7 @@ export default function App() {
           <motion.div style={{ y }} className="w-full h-full">
             <div className="absolute inset-0 bg-black/60 z-10"></div>
             <img
-              src="img/background_hero.JPG"
+              src={publicAsset('img/background_hero.JPG')}
               alt="Данила Маркушин"
               className="w-full h-full object-cover opacity-50 grayscale"
             />
