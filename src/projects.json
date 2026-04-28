@@ -4,14 +4,14 @@
     "title": "Авито",
     "category": "Реклама",
     "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239031",
-    "cover": "",
+    "cover": "/img/projects/avito.jpeg",
     "size": "large",
     "featured": true
   },
   {
     "id": "media-basket",
     "title": "Media Basket",
-    "category": "Реклама",
+    "category": "Монтаж",
     "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239028",
     "cover": "/img/projects/media-basket.jpg",
     "size": "small",
