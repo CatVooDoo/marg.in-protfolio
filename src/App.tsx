@@ -1,6 +1,7 @@
 import { motion, useScroll, useTransform, AnimatePresence } from 'motion/react';
 import { Play, ArrowUpRight, Mail, Instagram, Youtube, Send, ChevronDown, X } from 'lucide-react';
 import { useState, useEffect, FC } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import projectsData from './projects.json';
 
 // ==========================================
@@ -521,6 +522,7 @@ export default function App() {
           </motion.div>
         )}
       </AnimatePresence>
+      <Analytics />
     </div>
   );
 }
