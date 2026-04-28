@@ -13,7 +13,7 @@
     "title": "Media Basket",
     "category": "Реклама",
     "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239028",
-    "cover": "/img/DSC_0830.jpg",
+    "cover": "/img/projects/media-basket.jpg",
     "size": "small",
     "featured": true
   },
@@ -22,7 +22,7 @@
     "title": "Супер Стас",
     "category": "Монтаж",
     "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239031",
-    "cover": "/img/DSC_0830.jpg",
+    "cover": "/img/projects/super-stas.jpg",
     "size": "small",
     "featured": true
   },
@@ -31,7 +31,7 @@
     "title": "Олег Коффи",
     "category": "Монтаж",
     "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239025",
-    "cover": "/img/DSC_0830.jpg",
+    "cover": "/img/projects/oleg-koffi.jpg",
     "size": "small",
     "featured": false
   },
@@ -58,7 +58,7 @@
     "title": "Егор Крид",
     "category": "Монтаж",
     "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239022",
-    "cover": "/img/DSC_0830.jpg",
+    "cover": "/img/projects/egor-creed.jpg",
     "size": "small",
     "featured": false
   },
@@ -67,7 +67,7 @@
     "title": "Алиша",
     "category": "Монтаж",
     "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239020",
-    "cover": "/img/DSC_0830.jpg",
+    "cover": "/img/projects/alisha.jpg",
     "size": "small",
     "featured": false
   },
@@ -76,16 +76,16 @@
     "title": "Варпач",
     "category": "Монтаж",
     "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239019",
-    "cover": "/img/DSC_0830.jpg",
+    "cover": "/img/projects/warpath.jpg",
     "size": "small",
     "featured": false
   },
   {
     "id": "adel",
-    "title": "Тизер садовод Адель",
+    "title": "Адель Вейгель",
     "category": "Монтаж",
     "vkVideoUrl": "https://vkvideo.ru/video-237952727_456239017",
-    "cover": "/img/DSC_0830.jpg",
+    "cover": "/img/projects/adel.jpg",
     "size": "small",
     "featured": false
   }

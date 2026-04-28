@@ -25,7 +25,13 @@ const AUTHOR_IMAGES = [
   '/img/DSC_0998.jpg'
 ];
 
-const publicAsset = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`;
+const publicAsset = (path: string) => {
+  if (!path || /^(?:[a-z]+:)?\/\//i.test(path) || path.startsWith('data:')) {
+    return path;
+  }
+
+  return `${import.meta.env.BASE_URL}${path.replace(/^\/+/, '')}`;
+};
 
 const SKILLS = [
   'Монтаж видео', 'Цветокоррекция', 'Моушн-дизайн', 'Звук', 'VFX', 'Креативное направление'
@@ -472,7 +478,12 @@ export default function App() {
           <div className="w-full flex flex-col md:flex-row items-center justify-between pt-8 border-t border-white/10 text-sm text-muted font-mono uppercase tracking-widest">
             <p>© {new Date().getFullYear()} marg.ing Все права защищены.</p>
             <div className="flex gap-6 mt-6 md:mt-0">
-              <a href="#" className="hover:text-white transition-colors flex items-center gap-2">
+              <a
+                href="https://www.instagram.com/markush1n?igsh=MTNlMngwcXUxdTllOA%3D%3D&utm_source=qr"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-white transition-colors flex items-center gap-2"
+              >
                 <Instagram className="w-4 h-4" /> IG
               </a>
               <a href="#" className="hover:text-white transition-colors flex items-center gap-2">
