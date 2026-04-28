@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform, AnimatePresence } from 'motion/react';
-import { Play, ArrowUpRight, Mail, Instagram, Youtube, Send, ChevronDown, X } from 'lucide-react';
+import { Play, ArrowUpRight, Mail, Instagram, Send, ChevronDown, X } from 'lucide-react';
 import { useState, useEffect, FC } from 'react';
 import projectsData from './projects.json';
 
@@ -485,9 +485,6 @@ export default function App() {
                 className="hover:text-white transition-colors flex items-center gap-2"
               >
                 <Instagram className="w-4 h-4" /> IG
-              </a>
-              <a href="#" className="hover:text-white transition-colors flex items-center gap-2">
-                <Youtube className="w-4 h-4" /> YT
               </a>
               <a href="https://t.me/margingggg" target="_blank" rel="noreferrer" className="hover:text-white transition-colors flex items-center gap-2">
                 <Send className="w-4 h-4" /> TG
